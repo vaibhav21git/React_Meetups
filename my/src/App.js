@@ -3,11 +3,13 @@ import { Routes, Route } from 'react-router-dom'
 import Allmeetups from './pages/Allmeetups';
 import Newmeetups from './pages/Newmeetup';
 import Fav from './pages/Fav';
+import Mainnavigation from './components/layout/Mainnavigation';
 
 
 function App() {
   return (
     <div>
+      <Mainnavigation/>
       <Routes>
         <Route path="/" element={<Allmeetups/>} />
         <Route path="/new-meetup" element={<Newmeetups/>} />
