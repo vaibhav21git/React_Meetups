@@ -7,7 +7,7 @@ function Allmeetups() {
 
   useEffect(() => {
 
-       setisloading(true);
+      //  setisloading(true);
 
     fetch('https://reactd1-default-rtdb.firebaseio.com/meetups.json')
       .then((response) => { return response.json(); })
@@ -22,7 +22,6 @@ function Allmeetups() {
                   ...data[key]
            };
            
-            // console.log(meetup.image);
             meetups.push(meetup);
         }
         setisloading(false);

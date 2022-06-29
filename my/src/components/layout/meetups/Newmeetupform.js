@@ -23,7 +23,7 @@ function Newmeetform (props)
       const meetupdata  = 
       {
          title: enteredTitle,
-         images: enteredimg,
+         image: enteredimg,
          address: enteredadd,
          description: entereddesc,
       };
@@ -56,7 +56,7 @@ function Newmeetform (props)
              <textarea  id = "description"  required rows = '5' ref = {descInputRef}> </textarea>
              </div>
               
-              
+
 
              <div className = {classes.actions}>
              <button>Add Meetup</button>

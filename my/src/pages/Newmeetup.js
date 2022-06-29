@@ -7,6 +7,7 @@ function Newmeetups()
 
    function getmeetupdata(meetupdata)
    {
+    console.log(meetupdata);
       fetch('https://reactd1-default-rtdb.firebaseio.com/meetups.json',
       {
         method: 'POST' , 
@@ -19,10 +20,13 @@ function Newmeetups()
       {
         navigate('/');
       });
+
+
    }
 
     return <section>
          <h1>Add New Meetup</h1>
+         
          <Newmeetupform onaddmeetup = {getmeetupdata}/>
     </section>;
 };
