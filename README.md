@@ -1,2 +1,2 @@
-![](home.png)
+![](Home.png)
 ![](add.png)
