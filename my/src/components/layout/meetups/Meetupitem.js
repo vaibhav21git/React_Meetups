@@ -26,9 +26,9 @@ function Meetupitem (props)
                  title : props.title,
                  description : props.description,
                  image: props.image,
-                 address : props.address
+                 address : props.address,
               }
-            )
+            );
          }
      }
 

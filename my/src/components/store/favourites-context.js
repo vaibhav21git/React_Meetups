@@ -30,7 +30,7 @@ export function FavoritesContextProvider(props)
     }
 
     function itemisfavhandler(meetupid) {
-         return userfav.some(meetup => meetup === meetup.id);
+         return userfav.some(meetup => meetupid === meetup.id);
     }
 
     const context = {
