@@ -13,13 +13,13 @@ function Mainnavigation () {
          <nav>
             <ul>
                 <li>
-                  <Link to = '/' >all meetsups</Link>
+                  <Link to = '/' >All Meetsups</Link>
                 </li>
                 <li>
-                  <Link to = '/new-meetup' >Add new meetupk</Link>
+                  <Link to = '/new-meetup' >Add  a new meetup</Link>
                 </li>
                 <li>
-                  <Link to = '/fav' >My fav
+                  <Link to = '/fav' >My favourites
                   <span className={classes.badge}>{favctx.totalfavorites}</span>
                   </Link>
                 </li>
